@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Vi bringer vores database class ind i main (Instiansiere)
         Database superheroDataBase = new Database();
 
 
-
+// Vi laver en masse bruger input for at modtage input og tilføjer scanner.
         System.out.println("Velkommen til superhelte databasen! Indtast oplysninger om din superhelt");
         Scanner sc = new Scanner(System.in);
         System.out.println("Indtast Super-helte navnet på din superhelt");
@@ -23,9 +24,11 @@ public class Main {
         String superKraft = sc.next(); //Udskriver kun første ord? TODO
 
 
-
+// Vi kalder på vores funktion tilføjSuperhelt som blev lavet i Database classen.
+        // Vi angiver de variabler vi vil have med i vores funktion. Disse variabler blev instaniseret længere oppe
         superheroDataBase.tilføjSuperhelt(navn, superNavn, true, oprindelsesÅr, strength, superKraft);
-
+// Vi har tilføjet vores variabler til superheroDataBase og kombinerer det med vores array fra
+// Database som hedder databaseForSuperhero. Jeg forstår ikke denne del. Spørg TODO
         for (int n = 0; n < superheroDataBase.databaseForSuperHero.length; n++) {
             System.out.println("\n-- Superheltens navn er\n--" + superheroDataBase.databaseForSuperHero[n].getsuperNavn());
             System.out.println("\n-- Superheltens menneske navn er\n--" + superheroDataBase.databaseForSuperHero[n].getNavn());
@@ -35,6 +38,6 @@ public class Main {
 
         }
 
-        }
-
     }
+
+}
