@@ -34,5 +34,15 @@ public double getStrength() {
 public String getSuperKraft() {
     return superKraft;
 }
+public String toString() {
+    return ("----\n" +
+            "\t- Alias: " + navn + "\n"+
+            "\t- Superheltenavn: " + superNavn + "\n" +
+            "\t- Oprindelsesår: " + oprindelseÅr + "\n" +
+            "\t- Er menneske: " + erMenneske + "\n" +
+            "\t- Superkraft: " + superKraft + "\n" +
+            "\t- Styrke: " + strength + "\n" +
+            "----\n");
+}
 }
 
