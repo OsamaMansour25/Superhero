@@ -15,7 +15,22 @@ public class Database {
     public ArrayList<Superhero> getDatabaseForSuperHero() {
         return databaseForSuperHero;
     }
+
+    public Superhero søgSuperHero(String navn) {
+        for (int n = 0; n < databaseForSuperHero.size(); n++) {
+
+            if (databaseForSuperHero.get(n).getsuperNavn().equals(navn)) {
+                return databaseForSuperHero.get(n);
+                /* Kan også gøres sådan:
+                for (Superhero forSuperHero : databaseForSuperHero) {
+
+            if (forSuperHero.getsuperNavn().equals(navn)) {
+                return forSuperHero;
+                 */
+
+            }
+        }
+        return null;
+    }
 }
-
-
 

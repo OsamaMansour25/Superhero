@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Tilføjet kommentarer så jeg forstår det jeg har lavet. Mangler dog stadig en forklaring på det sidste i main som jeg skal have spurgt om.">
+    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Superhero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,8 @@
       <workItem from="1662975540222" duration="206000" />
       <workItem from="1662975798253" duration="5531000" />
       <workItem from="1663007717018" duration="805000" />
-      <workItem from="1663065049059" duration="9418000" />
+      <workItem from="1663065049059" duration="10137000" />
+      <workItem from="1663137840586" duration="6504000" />
     </task>
     <task id="LOCAL-00001" summary="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig.">
       <created>1663006668447</created>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663008514492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main">
+      <created>1663078940052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663078940052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig." />
     <MESSAGE value="Tilføjet kommentarer så jeg forstår det jeg har lavet. Mangler dog stadig en forklaring på det sidste i main som jeg skal have spurgt om." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet kommentarer så jeg forstår det jeg har lavet. Mangler dog stadig en forklaring på det sidste i main som jeg skal have spurgt om." />
+    <MESSAGE value="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main" />
   </component>
 </project>
