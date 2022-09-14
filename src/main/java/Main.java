@@ -23,7 +23,11 @@ public class Main {
             String søgHelt;
             boolean fundet = false;
 
-
+// Vi laver en if statement der gør, at hvis brugeren taster 3 og vil finde en superhelt, så søger scanneren efter Stringen søgHelt og derefter kalder
+            // funktionen der hedder søgSuperHero som vi har lavet i Database classen.
+            // Vi instaniserer Superhero classen og kalder den for noget, i dette tilfælde "værdi".
+            // Derefter siger vi at værdi svarer til vores superheroDataBase som vi instaniseret helt i starten og kalder funktionen .søgSuperHero hvor den søger efter
+            // vores String som hedder søgHelt
             if (brugerValg == 3) {
                 System.out.println("Indtast navn du søger efter");
                 søgHelt = sc.next();
@@ -33,7 +37,7 @@ public class Main {
                 else System.out.println(værdi);
 
             }
-            
+
 
 
                 if (brugerValg == 1) {

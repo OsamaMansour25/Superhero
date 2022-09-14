@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main">
+    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -61,7 +61,7 @@
       <workItem from="1662975798253" duration="5531000" />
       <workItem from="1663007717018" duration="805000" />
       <workItem from="1663065049059" duration="10137000" />
-      <workItem from="1663137840586" duration="6504000" />
+      <workItem from="1663137840586" duration="9087000" />
     </task>
     <task id="LOCAL-00001" summary="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig.">
       <created>1663006668447</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663078940052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt">
+      <created>1663147755206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663147755206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +112,7 @@
     <MESSAGE value="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig." />
     <MESSAGE value="Tilføjet kommentarer så jeg forstår det jeg har lavet. Mangler dog stadig en forklaring på det sidste i main som jeg skal have spurgt om." />
     <MESSAGE value="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main" />
+    <MESSAGE value="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt" />
   </component>
 </project>
