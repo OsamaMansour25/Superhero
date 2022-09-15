@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Database {
     // Vi vil lave flere superhelte, derfor er en array mest oplagt her.
     private ArrayList<Superhero> databaseForSuperHero = new ArrayList();
+    private ArrayList<Superhero> brugerResultat = new ArrayList<Superhero>();
 
     // Vi laver en funktion der tilføjer variablerne til vores superhelt. Do while funktionen gør at den kører gennem
     // alle index pladser som er n i dette tilfælde.
@@ -23,7 +24,7 @@ public class Database {
     public Superhero søgSuperHero(String navn) {
         for (int n = 0; n < databaseForSuperHero.size(); n++) {
 
-            if (databaseForSuperHero.get(n).getsuperNavn().equals(navn)) {
+            if (databaseForSuperHero.get(n).getsuperNavn().equalsIgnoreCase(navn)) {
                 return databaseForSuperHero.get(n);
                 /* Kan også gøres sådan:
                 for (Superhero forSuperHero : databaseForSuperHero) {
