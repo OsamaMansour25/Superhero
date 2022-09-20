@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,9 @@
       <workItem from="1663065049059" duration="10137000" />
       <workItem from="1663137840586" duration="9087000" />
       <workItem from="1663237915447" duration="8796000" />
+      <workItem from="1663569804430" duration="3755000" />
+      <workItem from="1663670168056" duration="3096000" />
+      <workItem from="1663697125587" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig.">
       <created>1663006668447</created>

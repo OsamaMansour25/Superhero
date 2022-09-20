@@ -39,6 +39,7 @@ public class UserInterface {
             søgSuperhelt();
         else if (brugerValg == 9)
             System.exit(9);
+
     }
 
 
@@ -60,9 +61,9 @@ public class UserInterface {
         // boolean erMenneske = sc.nextLine(); TODO
 
         System.out.println("Hvilket år blev din superhelt opfundet?");
-        int oprindelsesÅr = sc.nextInt();
+        int oprindelsesÅr = readInt();
         System.out.println("Hvor stærk er superhelten fra 1-100?");
-        double strength = sc.nextDouble();
+        double strength = readDouble();
         System.out.println("Hvad er din superheltes superkraft?");
         String superKraft = sc.next(); //Udskriver kun første ord? TODO
         db.tilføjSuperhelt(navn, superNavn, erMenneske, oprindelsesÅr, strength, superKraft);
@@ -74,6 +75,7 @@ public class UserInterface {
             System.out.println(superheroListe);
         }
     }
+
     public void søgSuperhelt() {
         System.out.println("Indtast navn du søger efter");
         String søgHelt;
@@ -83,5 +85,26 @@ public class UserInterface {
             System.out.println("Superhelten findes ikke i databasen");
         else System.out.println(værdi);
     }
+
+    public int readInt() {
+        while (!sc.hasNextInt()) {
+            String tekst = sc.next();
+            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal");
+        }
+        return sc.nextInt();
+
+
+    }
+
+    public double readDouble() {
+        while (!sc.hasNextDouble()) {
+            String tekst = sc.next();
+            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal");
+        }
+        return sc.nextDouble();
+    }
 }
+
+
+
 
