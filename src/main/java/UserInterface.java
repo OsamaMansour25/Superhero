@@ -24,9 +24,10 @@ public class UserInterface {
 
 // Vi laver en masse bruger input for at modtage input og tilføjer scanner.
 
-            brugerValg = sc.nextInt();
+            brugerValg = readInt();
             sc.nextLine();
             håndterBrugerValg(brugerValg);
+
         }
     }
 
@@ -49,13 +50,15 @@ public class UserInterface {
         System.out.println("Hvis din superhelt har et menneske navn så indtast det her, ellers skriv ingen");
         String superNavn = sc.nextLine();
         System.out.println("Er din helt et menneske? Svar Ja/nej");
-        boolean erMenneske = false;
+        menneskeTrueFalse();
+        boolean erMenneske = menneskeTrueFalse();
+        /* Oprindelig kode vi startede med
         String svar = sc.next();
         if (svar.equalsIgnoreCase("Ja")) {
             erMenneske = true;
         } else if (svar.equalsIgnoreCase("Nej")) {
             erMenneske = false;
-        }
+        } */
 
         //System.out.println("");
         // boolean erMenneske = sc.nextLine(); TODO
@@ -86,10 +89,25 @@ public class UserInterface {
         else System.out.println(værdi);
     }
 
+    public boolean menneskeTrueFalse() {
+        String tekst = sc.next();
+        boolean b = false;
+        if (tekst.equalsIgnoreCase("Ja")) {
+            b = true;
+        } else if (tekst.equalsIgnoreCase("Nej")) {
+            b = false;
+        } else {
+            System.out.println("Du skal indtaste ja eller nej for at fortsætte. Er superhelten et menneske?");
+            menneskeTrueFalse();
+        }
+        return b;
+    }
+
+
     public int readInt() {
         while (!sc.hasNextInt()) {
             String tekst = sc.next();
-            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal");
+            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal. Forsøg igen");
         }
         return sc.nextInt();
 
@@ -99,7 +117,7 @@ public class UserInterface {
     public double readDouble() {
         while (!sc.hasNextDouble()) {
             String tekst = sc.next();
-            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal");
+            System.out.println("Inputtet " + tekst + " må du ikke skrive. Du skal skrive et tal. Forsøg igen");
         }
         return sc.nextDouble();
     }
