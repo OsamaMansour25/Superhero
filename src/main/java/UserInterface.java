@@ -17,7 +17,7 @@ public class UserInterface {
                     1. Opret superhelt
                     2. Udskriv alle superhelte
                     3. Søg efter en superhelt
-                    4. Rediger oplysninger på en superhelt
+                    4. Slet en superhelt
                     9. Afslut    
                         """);
 
@@ -38,6 +38,8 @@ public class UserInterface {
             udskrivSuperhelte();
         else if (brugerValg == 3)
             søgSuperhelt();
+        else if (brugerValg == 4)
+            sletSuperhelt();
         else if (brugerValg == 9)
             System.exit(9);
 
@@ -101,6 +103,26 @@ public class UserInterface {
             menneskeTrueFalse();
         }
         return b;
+    }
+    public void sletSuperhelt() {
+        System.out.println("Søg efter superhelten du vil slette");
+        String søgSuperhelt = sc.nextLine();
+        Superhero sletSuperhelt = db.søgSuperHero(søgSuperhelt);
+        if (sletSuperhelt != null) {
+            System.out.println("Dette er superhelten du har søgt efter" + sletSuperhelt);
+        } else if (sletSuperhelt == null) {
+            System.out.println("Dit søgeresultat gav ingen resultater");
+        }
+        System.out.println("Vil du slette denne superhelt?");
+        String jaNej = sc.nextLine();
+        if (jaNej.equalsIgnoreCase("Ja")) {
+            int n;
+            n = db.getDatabaseForSuperHero().indexOf(sletSuperhelt);
+            db.getDatabaseForSuperHero().remove(n);
+
+        } else if (jaNej.equalsIgnoreCase("Nej")) {
+            System.exit(0);
+        }
     }
 
 
