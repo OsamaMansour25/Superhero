@@ -24,7 +24,7 @@ public class Database {
     public Superhero søgSuperHero(String navn) {
         for (int n = 0; n < databaseForSuperHero.size(); n++) {
 
-            if (databaseForSuperHero.get(n).getsuperNavn().contains(navn)) {
+            if (databaseForSuperHero.get(n).getNavn().equalsIgnoreCase(navn)) {
                 return databaseForSuperHero.get(n);
                 /* Kan også gøres sådan:
                 for (Superhero forSuperHero : databaseForSuperHero) {

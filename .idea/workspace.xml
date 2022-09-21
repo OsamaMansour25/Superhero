@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Tilføjet test og testet vores metoder.">
+    <list default="true" id="8eec74e4-2afe-418d-92d9-20965cf48e6e" name="Changes" comment="Tilføjet en funktion til at slette en superhelt.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +70,8 @@
       <workItem from="1663569804430" duration="3755000" />
       <workItem from="1663670168056" duration="3096000" />
       <workItem from="1663697125587" duration="472000" />
-      <workItem from="1663786827546" duration="4268000" />
+      <workItem from="1663786827546" duration="5709000" />
+      <workItem from="1663793113931" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="Delopgave 1 fuldført. Ikke som måden jeg havde forestillet mig.">
       <created>1663006668447</created>
@@ -104,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663790350596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tilføjet en funktion til at slette en superhelt.">
+      <created>1663791123922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663791123922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +138,7 @@
     <MESSAGE value="Lavet en arraylist samt lavet en ekstra funktion der udskriver alle helte gemt. Også en for loop i main" />
     <MESSAGE value="Tilføjet søgSuperHero metoden der gør, at vi kan søge efter en bestemt superhelt" />
     <MESSAGE value="Tilføjet test og testet vores metoder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet test og testet vores metoder." />
+    <MESSAGE value="Tilføjet en funktion til at slette en superhelt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet en funktion til at slette en superhelt." />
   </component>
 </project>
